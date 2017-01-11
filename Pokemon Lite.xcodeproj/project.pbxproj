@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD9872CE1E25E4340014E4CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9872CD1E25E4340014E4CC /* AppDelegate.swift */; };
+		CD9872D01E25E4340014E4CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9872CF1E25E4340014E4CC /* ViewController.swift */; };
+		CD9872D31E25E4340014E4CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD9872D11E25E4340014E4CC /* Main.storyboard */; };
+		CD9872D61E25E4340014E4CC /* Pokemon_Lite.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CD9872D41E25E4340014E4CC /* Pokemon_Lite.xcdatamodeld */; };
+		CD9872D81E25E4340014E4CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD9872D71E25E4340014E4CC /* Assets.xcassets */; };
+		CD9872DB1E25E4340014E4CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD9872D91E25E4340014E4CC /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD9872CA1E25E4340014E4CC /* Pokemon Lite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pokemon Lite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD9872CD1E25E4340014E4CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD9872CF1E25E4340014E4CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD9872D21E25E4340014E4CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD9872D51E25E4340014E4CC /* Pokemon_Lite.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pokemon_Lite.xcdatamodel; sourceTree = "<group>"; };
+		CD9872D71E25E4340014E4CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD9872DA1E25E4340014E4CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD9872DC1E25E4340014E4CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD9872C71E25E4330014E4CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD9872C11E25E4330014E4CC = {
+			isa = PBXGroup;
+			children = (
+				CD9872CC1E25E4340014E4CC /* Pokemon Lite */,
+				CD9872CB1E25E4340014E4CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD9872CB1E25E4340014E4CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD9872CA1E25E4340014E4CC /* Pokemon Lite.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD9872CC1E25E4340014E4CC /* Pokemon Lite */ = {
+			isa = PBXGroup;
+			children = (
+				CD9872CD1E25E4340014E4CC /* AppDelegate.swift */,
+				CD9872CF1E25E4340014E4CC /* ViewController.swift */,
+				CD9872D11E25E4340014E4CC /* Main.storyboard */,
+				CD9872D71E25E4340014E4CC /* Assets.xcassets */,
+				CD9872D91E25E4340014E4CC /* LaunchScreen.storyboard */,
+				CD9872DC1E25E4340014E4CC /* Info.plist */,
+				CD9872D41E25E4340014E4CC /* Pokemon_Lite.xcdatamodeld */,
+			);
+			path = "Pokemon Lite";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD9872C91E25E4330014E4CC /* Pokemon Lite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD9872DF1E25E4340014E4CC /* Build configuration list for PBXNativeTarget "Pokemon Lite" */;
+			buildPhases = (
+				CD9872C61E25E4330014E4CC /* Sources */,
+				CD9872C71E25E4330014E4CC /* Frameworks */,
+				CD9872C81E25E4330014E4CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pokemon Lite";
+			productName = "Pokemon Lite";
+			productReference = CD9872CA1E25E4340014E4CC /* Pokemon Lite.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD9872C21E25E4330014E4CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = SwiftMills;
+				TargetAttributes = {
+					CD9872C91E25E4330014E4CC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = F5J6ZLKCR8;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CD9872C51E25E4330014E4CC /* Build configuration list for PBXProject "Pokemon Lite" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD9872C11E25E4330014E4CC;
+			productRefGroup = CD9872CB1E25E4340014E4CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD9872C91E25E4330014E4CC /* Pokemon Lite */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD9872C81E25E4330014E4CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD9872DB1E25E4340014E4CC /* LaunchScreen.storyboard in Resources */,
+				CD9872D81E25E4340014E4CC /* Assets.xcassets in Resources */,
+				CD9872D31E25E4340014E4CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD9872C61E25E4330014E4CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD9872D01E25E4340014E4CC /* ViewController.swift in Sources */,
+				CD9872D61E25E4340014E4CC /* Pokemon_Lite.xcdatamodeld in Sources */,
+				CD9872CE1E25E4340014E4CC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD9872D11E25E4340014E4CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD9872D21E25E4340014E4CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD9872D91E25E4340014E4CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD9872DA1E25E4340014E4CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD9872DD1E25E4340014E4CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD9872DE1E25E4340014E4CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD9872E01E25E4340014E4CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F5J6ZLKCR8;
+				INFOPLIST_FILE = "Pokemon Lite/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SwiftMills.Pokemon-Lite";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CD9872E11E25E4340014E4CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F5J6ZLKCR8;
+				INFOPLIST_FILE = "Pokemon Lite/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SwiftMills.Pokemon-Lite";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD9872C51E25E4330014E4CC /* Build configuration list for PBXProject "Pokemon Lite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD9872DD1E25E4340014E4CC /* Debug */,
+				CD9872DE1E25E4340014E4CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD9872DF1E25E4340014E4CC /* Build configuration list for PBXNativeTarget "Pokemon Lite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD9872E01E25E4340014E4CC /* Debug */,
+				CD9872E11E25E4340014E4CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CD9872D41E25E4340014E4CC /* Pokemon_Lite.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CD9872D51E25E4340014E4CC /* Pokemon_Lite.xcdatamodel */,
+			);
+			currentVersion = CD9872D51E25E4340014E4CC /* Pokemon_Lite.xcdatamodel */;
+			path = Pokemon_Lite.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CD9872C21E25E4330014E4CC /* Project object */;
+}
