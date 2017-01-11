@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD240BEB1E25F116009CFF87 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD240BEA1E25F116009CFF87 /* MapKit.framework */; };
 		CD9872CE1E25E4340014E4CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9872CD1E25E4340014E4CC /* AppDelegate.swift */; };
 		CD9872D01E25E4340014E4CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9872CF1E25E4340014E4CC /* ViewController.swift */; };
 		CD9872D31E25E4340014E4CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD9872D11E25E4340014E4CC /* Main.storyboard */; };
@@ -16,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD240BE61E25EA00009CFF87 /* Pokemon Hollow.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pokemon Hollow.ttf"; sourceTree = "<group>"; };
+		CD240BE71E25EA00009CFF87 /* Pokemon Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pokemon Solid.ttf"; sourceTree = "<group>"; };
+		CD240BEA1E25F116009CFF87 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		CD9872CA1E25E4340014E4CC /* Pokemon Lite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pokemon Lite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD9872CD1E25E4340014E4CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD9872CF1E25E4340014E4CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -31,17 +35,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD240BEB1E25F116009CFF87 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CD240BE81E25EA08009CFF87 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CD240BE61E25EA00009CFF87 /* Pokemon Hollow.ttf */,
+				CD240BE71E25EA00009CFF87 /* Pokemon Solid.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		CD240BE91E25F116009CFF87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD240BEA1E25F116009CFF87 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CD9872C11E25E4330014E4CC = {
 			isa = PBXGroup;
 			children = (
 				CD9872CC1E25E4340014E4CC /* Pokemon Lite */,
 				CD9872CB1E25E4340014E4CC /* Products */,
+				CD240BE91E25F116009CFF87 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +83,7 @@
 				CD9872CF1E25E4340014E4CC /* ViewController.swift */,
 				CD9872D11E25E4340014E4CC /* Main.storyboard */,
 				CD9872D71E25E4340014E4CC /* Assets.xcassets */,
+				CD240BE81E25EA08009CFF87 /* Fonts */,
 				CD9872D91E25E4340014E4CC /* LaunchScreen.storyboard */,
 				CD9872DC1E25E4340014E4CC /* Info.plist */,
 				CD9872D41E25E4340014E4CC /* Pokemon_Lite.xcdatamodeld */,
@@ -304,6 +328,7 @@
 				CD9872E11E25E4340014E4CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
